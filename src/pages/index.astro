@@ -1,0 +1,19 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import Calculos from '../components/vue/Parte3.vue';
+import Medio from "../components/vue/Medio.vue";
+import Inicio from "../components/vue/Parte1.vue"
+---
+
+<Layout title="Welcome to Astro.">
+	<div class="flex w-full h-screen justify-center items-center">
+		<div class="flex flex-col bg-gray-800 p-5 justify-center items-center rounded">
+			
+			<Inicio/>
+			<Medio/>
+			<Calculos />
+		</div>
+	</div>
+</Layout>
+
